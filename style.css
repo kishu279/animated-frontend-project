@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: white;
+}
+
+#title-bar {
+  display: flex;
+  justify-content: space-between;
+}
+#title-div {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.box-title {
+  margin-top: 15px;
+  height: 55px;
+  width: 55px;
+  background-color: rgb(196, 164, 132);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#title-img {
+  padding-top: 4px;
+  height: 45px;
+}
+#title {
+  font-family: "Parkinsans", sans-serif;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 32px;
+  font-weight: 200;
+  cursor: pointer;
+}
+#Sign-in {
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 25px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 70px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#Sign-in:hover {
+  color: grey;
+}
+#md-div {
+  font-family: "Roboto Condensed", sans-serif;
+  /* border: 2px solid black; */
+  margin-top: 100px;
+  text-align: center;
+}
+#head-div h3 {
+  margin-top: 35px;
+  font-weight: 300;
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+#head-div p {
+  margin-top: -32px;
+  font-weight: 300;
+  font-size: 22px;
+}
+#create-btn {
+  height: 50px;
+  width: 165px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5%;
+  margin-left: 45%;
+  margin-top: 45px;
+  background-color: #f08030;
+  color: white;
+  align-content: center;
+  cursor: pointer;
+}
+#create-btn:hover {
+  background-color: #f2a75a;
+}
+
+#main-img {
+  display: flex;
+  /* padding-bottom: 10px; */
+  margin-top: 40px;
+  overflow: hidden;
+}
+#main-img img {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+
+  /* animation-name: animation;
+  animation-delay: 4s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; */
+
+  animation: animation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+} 
+@keyframes animation {
+  /* from {top: 600px;}
+  to {top: 0px;} */
+  0% {top: 0px;}
+  30% {top: 0px;}
+  60% {top: 600px;}
+  70% {top: 600px;}
+  100% {top: 0px;}
+}
